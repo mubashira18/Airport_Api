@@ -42,6 +42,7 @@ This project is a Node.js-based API for retrieving information about airports, c
    cd airport-api
    Get Airport by IATA Code
    Endpoint: /airport?iata_code=XYZ
+   eg link:: https://airport-9rlu.onrender.com/api/airport?iata_code=AGR
    ```
 
 Method: GET
@@ -80,4 +81,4 @@ json
     }
   }
 }
-deployed link --  https://airport-9rlu.onrender.com/
+deployed link --  https://airport-9rlu.onrender.com/api/airport
