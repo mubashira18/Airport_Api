@@ -38,7 +38,7 @@ This project is a Node.js-based API for retrieving information about airports, c
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/airport-api.git
+   git clone https://github.com/mubashira18/Airport_Api.git
    cd airport-api
    Get Airport by IATA Code
    Endpoint: /airport?iata_code=XYZ
@@ -51,29 +51,33 @@ Response:
 json
 
 {
-"airport": {
-"id": 145,
-"icao_code": "VIAG",
-"iata_code": "AGR",
-"name": "Agra Airport / Agra Air Force Station",
-"type": "medium_airport",
-"latitude_deg": 27.157683,
-"longitude_deg": 77.960942,
-"elevation_ft": 551,
-"address": {
-"city": {
-"id": 436,
-"name": "Agra",
-"country_id": 76,
-"latitude_deg": 27.18,
-"longitude_deg": 78.02
-},
-"country": {
-"id": 76,
-"name": "India",
-"continent_id": 1,
-"website_url": "http://example.com"
+  "airport": {
+    "id": 145,
+    "icao_code": "VIAG",
+    "iata_code": "AGR",
+    "name": "Agra Airport / Agra Air Force Station",
+    "type": "medium_airport",
+    "latitude_deg": 27.157683,
+    "longitude_deg": 77.960942,
+    "elevation_ft": 551,
+    "address": {
+      "city": {
+        "id": 436,
+        "name": "Agra",
+        "country_id": 76,
+        "is_active": true,
+        "lat": 27.18,
+        "long": 78.02
+      },
+      "country": {
+        "id": 76,
+        "name": "India",
+        "country_code_two": "IN",
+        "country_code_three": "IND",
+        "mobile_code": 91,
+        "continent_id": 1
+      }
+    }
+  }
 }
-}
-}
-}
+deployed link --  https://airport-9rlu.onrender.com/
